@@ -18,7 +18,6 @@ app.config.from_object(Config)
 babel = Babel(app)
 
 
-
 @app.route('/')
 def get_index() -> str:
     """Index page
